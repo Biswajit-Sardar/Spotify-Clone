@@ -179,8 +179,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 30px;
-    background: #030303;
+    padding: 20px 30px;
+    background: #131212;
 
 
 }
@@ -201,12 +201,62 @@ body{
     font-size: 16.1px;
     color: #838181;
     font-weight: 600;
+    margin-right: 20px;
 
 }
-.top-nev .login-btn .login-up{
-    font-size: 16.1px;
-    color: #000000;
-    font-weight: 600;
+.top-nev .login-btn .sign-up:hover{
+    color: rgb(255, 255, 255);
+
 
     
 }
+
+.top-nev .login-btn .login{
+    font-size: 16.1px;
+    color: #242323;
+    font-weight: 600;
+    background-color: white;
+    padding:10px 16px;
+    border-radius: 20px;
+ 
+}
+
+.top-nev .login-btn .login:hover{
+    background-color: #f3f3f3;
+}
+
+
+.spotify-playlist{
+    padding: 20px 40px;
+
+}
+.spotify-playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.spotify-playlist .card{
+    display: flex;
+    gap:20px;
+    overflow: hidden;
+}
+
+.spotify-playlist .card .item{
+    width: 160px;
+    min-width: 140px;
+    background-color: #272626;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.spotify-playlist .card .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    
+}
+
+
