@@ -3,192 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon"href="https://icon2.cleanpng.com/20181001/yii/kisspng-computer-icons-portable-network-graphics-clip-art-the-kentucky-grasshoppers-veenhoop-festival-1713928039881.webp">
-    <title>Spotify-project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify Clone</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="sidebar">
-         <!-- sidebar logo , home icon, search icon  -->
-        <div class="sidebar-navbar">
-            <div class="logo">
-                <a href=""><img src="images/logo-new.png" alt=""></a>
-            </div>
-            <ul type="none">
-                <li><a href="">
-                    <span><i class="fa-solid fa-house"></i></span>
-                    <span>Home</span>
-                </a></li>
-                <li><a href="">
-                    <span><i class="fa-solid fa-search"></i></span>
-                    <span>Search</span>
-                </a></li>
-            </ul>
-        </div>
-
-        <!--library section-->
-        <div class="sidebar-navbar box2">
-            
-            <ul type="none">
-                <li><a href="">
-                    <span><i class="fa-solid fa-bookmark"></i></span>
-                    <span class="Library">Library</span>
-                </a></li>
-                <li>
-                    <div class="sidebar-scroli">
-                        <div class="create-playlist">
-                            <h4>Create your first Playlist</h4>
-                            <p>It's easy, we'll help you</p>
-                            <button>Create Playlist</button>
-
-                        </div>
-
-                        <div class="create-playlist">
-                            <h4>Create your first Playlist</h4>
-                            <p>It's easy, we'll help you</p>
-                            <button>Create Playlist</button>
-
-                        </div>
-                        
-                    </div>
-                </li>
-            </ul>
-            <div class="privacy">
-            <ul>
-                <li>
-                    <a href="">Legal</a>
-                    <a href="">Safety & Privacy </a>
-                    <a href="">Privacy policy</a>
-
-                </li>
-                <li>
-                    <a href="">Cookies</a>
-                    <a href="">about Ads</a>
-                    <a href="">Accessibility</a>
-
-                </li>
-                <li>
-                    <a href="">Cookies</a>
-                </li>
-                <div>
-                </div>
-                            </ul>
-        </div>
-        <div class="English-btn"> 
-            <button><i class="fa-solid fa-globe"></i>English</button>
-        </div>
-        </div>
-    </div>
-
-
-
-<!-- Main Section -->
- <div class="main-section">
-    <div class="top-nev">
-        <div class="prev-btn">
-            <button><i class="fa-solid fa-chevron-left"></i></button>
-            <button><i class="fa-solid fa-chevron-right"></i></button>
-        </div>
-        <div class="login-btn">
-            <button class="sign-up">Sign-up</button>
-            <button class="login">Login</button>
-        </div>
-    </div>
-
-
-    <div class="spotify-playlist">
-        <h2>Trending song</h2>
-        <div class="card">
-            <div class="item">
-                <img src="images/item-6.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Animal</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-7.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Still Rollin</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-8.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Husn</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-9.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Moosetape</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-10.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Stranga(From...)</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+    
+    <nav>
+        <div class="left-nav">
+            <div class="logo"><i class="fa-brands fa-spotify"></i></div>
+            <div class="home"><i class="fa-solid fa-house"></i></div>
+            <div class="search">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" class="input-box">
+                <div class="browse"><i class="fa-regular fa-folder-closed"></i></div>
             </div>
         </div>
-    </div>
-
-    <div class="spotify-playlist">
-        <h2>Trending song</h2>
-        <div class="card">
-            <div class="item">
-                <img src="images/item-1.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Animal</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+        <div class="right-nav">
+            <div class="right1">
+                <p>Premium</p>
+                <p>Support</p>
+                <p>Download</p>
             </div>
-            <div class="item">
-                <img src="images/item-2.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Still Rollin</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-3.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Husn</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-4.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Moosetape</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
-            </div>
-            <div class="item">
-                <img src="images/item-5.jpg" alt="">
-                <div class="play-btn">
-                    <span><i class="fa-solid fa-play"></i></span>
-                </div>
-                <h4>Stranga(From...)</h4>
-                <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+            <div class="right2">
+                <div class="install"><i class="fa-regular fa-circle-down"></i>Install App</div>
+                <div class="sing-up">Sign-up</div>
+                <button class="Log in">Log in</button>
             </div>
         </div>
-    </div>
- </div>
-
+    </nav>
 </body>
 </html>
