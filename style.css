@@ -173,6 +173,7 @@ body{
     background-color: #181818;
     margin-top: 6.5px;
     height: 100vh;
+    overflow: auto;
 
 }
 .main-section .top-nev{
