@@ -25,7 +25,7 @@ nav{
 }
 
 .logo{
-    font-size: 40px;
+    font-size: 32px;
     margin: 16px;
 
 }
@@ -57,3 +57,36 @@ nav{
     background-color: #3c3c3c;
     
 }
+
+.search-icon{
+    font-size:24px;
+    color: rgb(179, 179, 179);
+    padding: 0 11.2px;
+}
+
+.search:hover .search-icon{
+    color: white;
+}
+
+.input-box{
+    width: 78%;
+    height: 60%;
+    background-color: rgba(0, 255, 229, 0);
+    border: none;
+    color: white;
+    font-size: 19.2px;
+    border-right: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.browse{
+    font-size: 20.8px;
+    margin: 6.9px;
+    transition: 0.2s;
+
+}
+.browse:hover{
+    transform: scale(1.1s);
+}
+
+
+
